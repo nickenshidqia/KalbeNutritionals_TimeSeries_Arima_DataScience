@@ -25,12 +25,10 @@ The challenges in this project include :
 ## Tools & Library Used
 
 [<img src="images/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
-![logo](images/python-logo-2.png | width=50)
-[<img src="./picture/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
-[<img src="./picture/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
-[<img src="./picture/DBeaver-logo.png" alt="dbeaver-logo" width="50"/>](https://dbeaver.io//) &nbsp;
-[<img src="./picture/postgresql-logo.png" alt="postgresql-logo" width="50"/>](https://www.postgresql.org/) &nbsp;
-[<img src="./picture/Tableau-logo.png" alt="tableau-logo" width="200"/>](https://www.tableau.com/) &nbsp;
+[<img src="images/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
+[<img src="images/DBeaver-logo.png" alt="dbeaver-logo" width="50"/>](https://dbeaver.io//) &nbsp;
+[<img src="images/postgresql-logo.png" alt="postgresql-logo" width="50"/>](https://www.postgresql.org/) &nbsp;
+[<img src="images/Tableau-logo.png" alt="tableau-logo" width="200"/>](https://www.tableau.com/) &nbsp;
 
 [<img src="./picture/pandas-logo.png" alt="pandas-logo" width="50"/>](https://pandas.pydata.org/) &nbsp;
 [<img src="./picture/numpy-logo.png" alt="numpy-logo" width="100"/>](https://numpy.org/) &nbsp;
