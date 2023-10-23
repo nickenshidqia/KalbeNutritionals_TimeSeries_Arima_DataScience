@@ -30,11 +30,11 @@ The challenges in this project include :
 [<img src="images/postgresql-logo.png" alt="postgresql-logo" width="50"/>](https://www.postgresql.org/) &nbsp;
 [<img src="images/Tableau-logo.png" alt="tableau-logo" width="200"/>](https://www.tableau.com/) &nbsp;
 
-[<img src="./picture/pandas-logo.png" alt="pandas-logo" width="50"/>](https://pandas.pydata.org/) &nbsp;
-[<img src="./picture/numpy-logo.png" alt="numpy-logo" width="100"/>](https://numpy.org/) &nbsp;
-[<img src="./picture/scikit-logo.png" alt="scikit-logo"  width="80"/>](https://scikit-learn.org/stable/) &nbsp;
-[<img src="./picture/seaborn2-logo.png" alt="seaborn-logo"  width="50"/>](https://seaborn.pydata.org/) &nbsp;
-[<img src="./picture/matplotlib-logo2.png" alt="matplotlib-logo"  width="50"/>](https://matplotlib.org/) &nbsp;
+[<img src="images/pandas-logo.png" alt="pandas-logo" width="50"/>](https://pandas.pydata.org/) &nbsp;
+[<img src="images/numpy-logo.png" alt="numpy-logo" width="100"/>](https://numpy.org/) &nbsp;
+[<img src="images/scikit-logo.png" alt="scikit-logo"  width="80"/>](https://scikit-learn.org/stable/) &nbsp;
+[<img src="images/seaborn2-logo.png" alt="seaborn-logo"  width="50"/>](https://seaborn.pydata.org/) &nbsp;
+[<img src="images/matplotlib-logo2.png" alt="matplotlib-logo"  width="50"/>](https://matplotlib.org/) &nbsp;
 
 ## Dataset Used
 
@@ -50,17 +50,17 @@ The challenges in this project include :
 [Click here to get on SQL data](https://github.com/nickenshidqia/KalbeNutritionals_TimeSeries_Arima_DataScience/blob/main/Script%20EDA%20DBeaver.sql)
 
 On DBeaver we import dataset in Postgres public schema. There are 4 csv file that is used :  
-<img src="./picture/table.png" alt="table name" width = "500"/>
+<img src="images/table.png" alt="table name" width = "500"/>
 
 **The challenge results are** :  
 **Query 1** : Average customer age based on their marital status  
-<img src="./picture/1.png" alt="Average customer age" width = "200"/>  
+<img src="images/1.png" alt="Average customer age" width = "200"/>  
 **Query 2** : Average customer age based on their gender  
-<img src="./picture/2.png" alt="Average customer age" width = "200"/>  
+<img src="images/2.png" alt="Average customer age" width = "200"/>  
 **Query 3** : Store name with the highest total quantity  
-<img src="./picture/3.png" alt="store quantity" width = "200"/>  
+<img src=".images/3.png" alt="store quantity" width = "200"/>  
 **Query 4** : The best-selling product with the highest total amount  
-<img src="./picture/4.png" alt="product revenue" width = "200"/>  
+<img src="images/4.png" alt="product revenue" width = "200"/>  
 To see the entire query code you can look at : [link here](https://www.google.com/)
 
 ## Dashboard Visualization Using Tableau
@@ -68,10 +68,10 @@ To see the entire query code you can look at : [link here](https://www.google.co
 [Click here to get on Dashboard Visualization](https://github.com/nickenshidqia/KalbeNutritionals_TimeSeries_Arima_DataScience/blob/main/Sales%20Dashboard.png)
 
 The dashboard visualization on entire worksheet :  
-<img src="./picture/Dashboard%201.png" alt="dashboard" width = "500"/>
+<img src="images/Dashboard%201.png" alt="dashboard" width = "500"/>
 
 **Worksheet 1** : Total quantity from month to month  
-<img src="./picture/Sheet%201.png" alt="worksheet" width = "300"/>  
+<img src="images/Sheet%201.png" alt="worksheet" width = "300"/>  
 **Insight :**
 
 - Sales trends fluctuate slightly, and show a gradual decline starting from June.
@@ -79,7 +79,7 @@ The dashboard visualization on entire worksheet :
 - The lowest total quantity sold is in December 2022 with 1,409 items
 
 **Worksheet 2** : Total amount from day to day  
-<img src="./picture/Sheet%202.png" alt="worksheet" width = "300"/>  
+<img src="images/Sheet%202.png" alt="worksheet" width = "300"/>  
 **Insight :**
 
 - Daily revenue trends fluctuate heavily
@@ -87,14 +87,14 @@ The dashboard visualization on entire worksheet :
 - The lowest total amount is in August 2022 with Rp 123,600
 
 **Worksheet 3** : Total quantity by product  
-<img src="./picture/Sheet%203.png" alt="worksheet" width = "300"/>  
+<img src="images/Sheet%203.png" alt="worksheet" width = "300"/>  
 **Insight :**
 
 - The highest selling product in 2022 is Thai Tea with 2,853 items sold.
 - The lowest selling product in 2022 is Cashew with 627 items sold.
 
 **Worksheet 4** : Total sales amount by store name  
-<img src="./picture/Sheet%204.png" alt="worksheet" width = "500"/>  
+<img src="images/Sheet%204.png" alt="worksheet" width = "500"/>  
 **Insight :**
 
 - The best-selling store in 2022 is Lingga with sales revenue reached Rp 25,294,100.
@@ -108,32 +108,32 @@ The dashboard visualization on entire worksheet :
 
 **Fix data type error**  
 Fix data type error for 'Latitude', 'Longitude', and 'Income' from coma (,) to point (.)  
-<img src="./picture/clean1.png" alt="cleaning" width = "500"/>  
+<img src="images/clean1.png" alt="cleaning" width = "500"/>  
 Before cleaning :  
-<img src="./picture/clean2.png.jpg" alt="cleaning" width = "400"/>  
+<img src="images/clean2.png.jpg" alt="cleaning" width = "400"/>  
 After Cleaning :  
-<img src="./picture/clean3.png" alt="cleaning" width = "400"/>
+<img src="images/clean3.png" alt="cleaning" width = "400"/>
 
 **Drop Missing Values :**  
 Drop missing values on 'Marital Status' for 3 row  
-<img src="./picture/clean4.png" alt="cleaning" width = "180"/>
+<img src="images/clean4.png" alt="cleaning" width = "180"/>
 
 ### Data Merging
 
 Merging all dataset into one data :  
-<img src="./picture/merging.png" alt="merging" width = "550"/>
+<img src="images/merging.png" alt="merging" width = "550"/>
 
 ### Create New Dataset
 
 Create new dataset by grouping date and total quantity :  
-<img src="./picture/agg1.png" alt="dataset" width = "550"/>  
+<img src="images/agg1.png" alt="dataset" width = "550"/>  
 Here is the plot of new dataset :  
-<img src="./picture/plot1.png" alt="dataset" width = "550"/>
+<img src="images/plot1.png" alt="dataset" width = "550"/>
 
 ### Seasonal Decomposition
 
 According to trend, seasonality, and residual, the sales trend are quite fluctuative and indicate downtrend.  
-<img src="./picture/plot2.png" alt="dataset" width = "550"/>
+<img src="images/plot2.png" alt="dataset" width = "550"/>
 
 ### Augmented Dicky-Fuller (ADF) Test
 
