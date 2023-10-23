@@ -138,47 +138,47 @@ According to trend, seasonality, and residual, the sales trend are quite fluctua
 ### Augmented Dicky-Fuller (ADF) Test
 
 Based on ADF statistic, the p-value is 0.0 < 0.05, then reject H0 and accept H1. Therefore data is stationary.  
-<img src="./picture/adf.png" alt="ADF" width = "500"/>
+<img src=".images/adf.png" alt="ADF" width = "500"/>
 
 ### Data Training & Testing
 
 Splitting the data with 80% training and 20% testing. Blue line is data training, and green line is data testing.
-<img src="./picture/plot3.png" alt="plot" width = "600"/>
+<img src="images/plot3.png" alt="plot" width = "600"/>
 
 ### Find p,d,q for ARIMA Model
 
 **Model 1 - Auto-fit ARIMA**  
 Get result with p,d,q = 1,0,1. ARIMA (1,0,1) means there is no Differencing (0) because it is stationary, with Autoregression for 1 lag and 1 order Moving Average.  
-<img src="./picture/arima.png" alt="arima" width = "300"/>
+<img src="images/arima.png" alt="arima" width = "300"/>
 
 **Model 2 - ACF & PACF Plot**  
 Get result with p,d,q = 28,0,28 from ACF and PACF plot.  
-<img src="./picture/acf.png" alt="ACF" width = "300"/>
+<img src="images/acf.png" alt="ACF" width = "300"/>
 
 **Model 3 - Autocorrelation Plot**  
 Get result with p,d,q = 44,0,44 from Autocorrelation plot.  
-<img src="./picture/plot4.png" alt="plot" width = "300"/>
+<img src="images/plot4.png" alt="plot" width = "300"/>
 
 **ARIMA Modelling Plot**  
 Plot Data Train, Test, and Model Prediction  
-<img src="./picture/plot5.png" alt="plot" width = "600"/>
+<img src="images/plot5.png" alt="plot" width = "600"/>
 
 **Forecast Quantity Sales With The Best Parameter**  
 Model 2 with p,d,q (28,0,28) show the best metric evaluation because has the lowest MAE, MSE, RMSE, and MAPE.  
-<img src="./picture/mae.png" alt="MAE" width = "350"/>
+<img src="images/mae.png" alt="MAE" width = "350"/>
 
 Prediction for quantity on January 2023 is 50 pcs/day  
-<img src="./picture/forecast.png" alt="MAE" width = "200"/>
+<img src="images/forecast.png" alt="MAE" width = "200"/>
 
 ## Customer Segmentation Using KMeans Clustering
 
 ### Elbow Method
 
 Find k =4 in Elbow line plot, and input cluster to dataset.  
-<img src="./picture/elbow.png" alt="Elbow" width = "400"/>
+<img src="images/elbow.png" alt="Elbow" width = "400"/>
 
 There are 4 cluster of segmentation :  
-<img src="./picture/kmeans.png" alt="KMeans" width = "400"/>
+<img src=".images/kmeans.png" alt="KMeans" width = "400"/>
 
 **Conclusion**
 
