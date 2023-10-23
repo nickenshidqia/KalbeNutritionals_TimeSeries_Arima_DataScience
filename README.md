@@ -61,7 +61,6 @@ On DBeaver we import dataset in Postgres public schema. There are 4 csv file tha
 <img src="images/3.png" alt="store quantity" width = "200"/>  
 **Query 4** : The best-selling product with the highest total amount  
 <img src="images/4.png" alt="product revenue" width = "200"/>  
-To see the entire query code you can look at : [link here](https://www.google.com/)
 
 ## Dashboard Visualization Using Tableau
 
