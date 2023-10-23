@@ -24,6 +24,7 @@ The challenges in this project include :
 
 ## Tools & Library Used
 
+![logo](images/python-logo-2.png | width=50) &nbsp;
 [<img src="./picture/python-logo-2.png" alt="python-logo" width="50"/>](https://www.python.org/) &nbsp;
 [<img src="./picture/jupyter-logo.png" alt="jupyter-logo" width="50"/>](https://jupyter.org/) &nbsp;
 [<img src="./picture/DBeaver-logo.png" alt="dbeaver-logo" width="50"/>](https://dbeaver.io//) &nbsp;
