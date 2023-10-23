@@ -58,7 +58,7 @@ On DBeaver we import dataset in Postgres public schema. There are 4 csv file tha
 **Query 2** : Average customer age based on their gender  
 <img src="images/2.png" alt="Average customer age" width = "200"/>  
 **Query 3** : Store name with the highest total quantity  
-<img src=".images/3.png" alt="store quantity" width = "200"/>  
+<img src="images/3.png" alt="store quantity" width = "200"/>  
 **Query 4** : The best-selling product with the highest total amount  
 <img src="images/4.png" alt="product revenue" width = "200"/>  
 To see the entire query code you can look at : [link here](https://www.google.com/)
@@ -138,7 +138,7 @@ According to trend, seasonality, and residual, the sales trend are quite fluctua
 ### Augmented Dicky-Fuller (ADF) Test
 
 Based on ADF statistic, the p-value is 0.0 < 0.05, then reject H0 and accept H1. Therefore data is stationary.  
-<img src=".images/adf.png" alt="ADF" width = "500"/>
+<img src="images/adf.png" alt="ADF" width = "500"/>
 
 ### Data Training & Testing
 
@@ -178,7 +178,7 @@ Find k =4 in Elbow line plot, and input cluster to dataset.
 <img src="images/elbow.png" alt="Elbow" width = "400"/>
 
 There are 4 cluster of segmentation :  
-<img src=".images/kmeans.png" alt="KMeans" width = "400"/>
+<img src="images/kmeans.png" alt="KMeans" width = "400"/>
 
 **Conclusion**
 
